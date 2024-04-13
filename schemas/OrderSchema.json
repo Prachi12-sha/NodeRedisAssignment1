@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "MsgType": { "type": "integer"},
+        "OperationType": { "type": "integer" },
+        "TenantId": { "type": "integer" },
+        "OMSId": { "type": "integer" },
+        "Token": { "type": "integer" },
+        "OrderId": { "type": "integer" },
+        "Order Price": { "type": "number" },
+        "Order Qty": { "type": "integer" },
+        "ClientId": { "type": "integer" },
+        "ClientName": { "type": "string" },
+        "Remark": { "type": "string" }
+    },
+    "required": ["MsgType", "OperationType", "TenantId", "OMSId", "Token", "OrderId", "ClientId"]
+}

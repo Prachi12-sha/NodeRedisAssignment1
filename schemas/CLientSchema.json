@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "MsgType": {"type": "integer"},
+      "OperationType": {"type": "integer"},
+      "TenantId": {"type": "integer"},
+      "OMSId": {"type": "integer"},
+      "ClientId": {"type": "integer"},
+      "ClientName": {"type": "string"},
+      "Remark": {"type": "string"}
+    },
+    "required": ["MsgType", "OperationType", "TenantId", "OMSId", "ClientId"]
+  }
+  
